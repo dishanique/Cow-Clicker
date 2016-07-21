@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="cow.js"></script> 
+		<script>
+     var clicks = 0;
+    function myFunction() {
+
+        clicks += 1;
+        document.getElementById("demo").innerHTML = clicks;
+
+
+    }
+</script>
+	</head>
+	<body>
+		<div>
+		<title>Cow clicker</title>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg" alt="cow">
+		<p>Click Me. Go Ahead. Don't Stop Until You Get Enough.</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+		</div>
+	</body>
+	</html>
